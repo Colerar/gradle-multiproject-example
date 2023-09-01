@@ -1,0 +1,11 @@
+[versions]
+kotlin = "1.9.10"
+
+[libraries]
+gradle-catalog-update = "nl.littlerobots.vcu:plugin:0.8.1"
+gradle-versions = "com.github.ben-manes:gradle-versions-plugin:0.47.0"
+kotlinx-serialization-json = "org.jetbrains.kotlinx:kotlinx-serialization-json:1.5.1"
+
+[plugins]
+kotlin = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
+kotlinx-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
